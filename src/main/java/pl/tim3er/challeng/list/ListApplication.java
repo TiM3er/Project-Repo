@@ -25,10 +25,10 @@ public class ListApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        List<Project> projects = iChallenge.projectList();
-        for (Project project : projects) {
-            System.out.println(project.toString());
-        }
+//        List<Project> projects = iChallenge.projectList();
+//        for (Project project : projects) {
+//            System.out.println(project.toString());
+//        }
 
     }
 
